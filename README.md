@@ -17,10 +17,10 @@ An android custom view that displays a circle with a colored arc given a mark.
     getMark()
 ```
 ```java
-    setMark(int);
+    setMark(double);
 ```
 ```xml
-    app:mv_mark="integer"
+    app:mv_mark="double"
 ```
 
 ###Get/Set max
@@ -30,10 +30,10 @@ Max defines the highest mark value MarkView accepts and understands. Arc degree 
     getMax()
 ```
 ```java
-    setMax(int)
+    setMax(double)
 ```
 ```xml
-    app:mv_max="integer"
+    app:mv_max="double"
 ```
 
 ###Get/Set text size
@@ -132,14 +132,6 @@ An array keeps all the colors. Ideally, one for every supported mark (satisfying
 ```xml
    app:mv_ringColor="color"
 ```
-
-#Sample App
-<a href="https://play.google.com/store/apps/details?id=tr.xip.markview.sample">
-<img alt="Get it on Google Play"
-src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png" />
-</a>
-
-(Apk file available in the <a href="https://github.com/xiprox/MarkView/releases">releases tab</a>.)
 
 #License
 ```
