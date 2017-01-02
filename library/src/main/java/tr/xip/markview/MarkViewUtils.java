@@ -18,7 +18,7 @@ package tr.xip.markview;
 
 import android.content.res.Resources;
 
-public class Utils {
+public class MarkViewUtils {
     public static float dpToPx(Resources resources, float dp) {
         final float scale = resources.getDisplayMetrics().density;
         return  dp * scale + 0.5f;
